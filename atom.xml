@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://msy_blog.coding.me/"/>
-  <updated>2019-07-23T02:17:32.700Z</updated>
+  <updated>2019-07-24T03:40:10.488Z</updated>
   <id>https://msy_blog.coding.me/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>redme</title>
+    <link href="https://msy_blog.coding.me/2019/07/24/redme/"/>
+    <id>https://msy_blog.coding.me/2019/07/24/redme/</id>
+    <published>2019-07-24T03:36:29.000Z</published>
+    <updated>2019-07-24T03:40:10.488Z</updated>
+    
+    <content type="html"><![CDATA[<p>##3、高级设置</p><p>###（1）模板设置<br>当我们使用命令 hexo new “title” 创建文章时，Hexo 会根据 /scaffolds/post.md 对新文章进行初始化</p><p>换言之，/scaffolds/post.md 就是新文章的 模板，所以我们可以修改它来适应自己的写作习惯</p><p>一个简单的示例如下：</p><p>title: redme<br>date: 1563939389000<br>tags:<br>categories:<br>1<br>2<br>3<br>4</p><p>###（2）头部设置<br>在每篇利用 Hexo 创建的文章的开头，都会有对文章进行说明的文字，叫做 文章头部</p><p>文章的头部除了可以设置文章标题、发布日期等基础信息外，还可以为文章添加标签、分类等</p><p>一个简单的示例如下：<br>‘’’<br>title: Title<br>date: YYYY-MM-DD HH:MM:SS<br>tags: [tag1, tag2, …]<br>categories: category</p><p>‘’’</p><p>1<br>2<br>3<br>4<br>注意：属性和属性值之间必须有一个空格，否则会解析错误</p><p>###（3）首页显示<br>在利用 Hexo 框架搭建的博客网站中，首页会显示文章的内容，且默认显示文章的全部内容</p><p>如果当文章太长的时候就会显得十分冗余，所以我们有必要对其进行精简</p><p>这时，我们只需在文章中使用 <a id="more"></a> 标志即可，表示只会显示标志前面的内容</p><p>##三、部署发布<br>在站点文件夹中打开 git bash，输入如下命令部署和发布文章<br>‘’’<br>$ hexo g -d<br>‘’’<br>$ hexo g -d<br>1<br>建议：在使用 hexo g 部署之后，可以先使用 hexo s 运行本地站点，然后在浏览器输入地址 <a href="http://lacolhost:4000/" target="_blank" rel="noopener">http://lacolhost:4000/</a> 查看运行结果，检查无误后再使用 hexo d 发布</p><p>【Hexo系列相关文章】</p><p>Hexo系列(一) 搭建博客网站</p><p>Hexo系列(二) 配置文件详解</p><p>Hexo系列(三) 常用命令详解</p><p>Hexo系列(四) NexT主题配置</p><h2 id="Hexo系列-五-撰写文章"><a href="#Hexo系列-五-撰写文章" class="headerlink" title="Hexo系列(五) 撰写文章"></a>Hexo系列(五) 撰写文章</h2><p>原文：<a href="https://blog.csdn.net/wsmrzx/article/details/81478945" target="_blank" rel="noopener">https://blog.csdn.net/wsmrzx/article/details/81478945</a> </p><!--more-->]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;##3、高级设置&lt;/p&gt;
+&lt;p&gt;###（1）模板设置&lt;br&gt;当我们使用命令 hexo new “title” 创建文章时，Hexo 会根据 /scaffolds/post.md 对新文章进行初始化&lt;/p&gt;
+&lt;p&gt;换言之，/scaffolds/post.md 就是新文章的 模板，所以我们可以修改它来适应自己的写作习惯&lt;/p&gt;
+&lt;p&gt;一个简单的示例如下：&lt;/p&gt;
+&lt;p&gt;title: redme&lt;br&gt;date: 1563939389000&lt;br&gt;tags:&lt;br&gt;categories:&lt;br&gt;1&lt;br&gt;2&lt;br&gt;3&lt;br&gt;4&lt;/p&gt;
+&lt;p&gt;###（2）头部设置&lt;br&gt;在每篇利用 Hexo 创建的文章的开头，都会有对文章进行说明的文字，叫做 文章头部&lt;/p&gt;
+&lt;p&gt;文章的头部除了可以设置文章标题、发布日期等基础信息外，还可以为文章添加标签、分类等&lt;/p&gt;
+&lt;p&gt;一个简单的示例如下：&lt;br&gt;‘’’&lt;br&gt;title: Title&lt;br&gt;date: YYYY-MM-DD HH:MM:SS&lt;br&gt;tags: [tag1, tag2, …]&lt;br&gt;categories: category&lt;/p&gt;
+&lt;p&gt;‘’’&lt;/p&gt;
+&lt;p&gt;1&lt;br&gt;2&lt;br&gt;3&lt;br&gt;4&lt;br&gt;注意：属性和属性值之间必须有一个空格，否则会解析错误&lt;/p&gt;
+&lt;p&gt;###（3）首页显示&lt;br&gt;在利用 Hexo 框架搭建的博客网站中，首页会显示文章的内容，且默认显示文章的全部内容&lt;/p&gt;
+&lt;p&gt;如果当文章太长的时候就会显得十分冗余，所以我们有必要对其进行精简&lt;/p&gt;
+&lt;p&gt;这时，我们只需在文章中使用
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
